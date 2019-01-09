@@ -1,38 +1,38 @@
-﻿// Various useful control extension functions to be used for Winform app development
-// David Piao
+            {
+
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
+    {
 using System.Windows.Forms;
 
 namespace PCKLIB
 {
-    public static class ControlExtensions
-    {
+        public static void DoubleBuffered(this Control control, bool enable)
+            }
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
         {
             if (control.InvokeRequired)
             {
-                control.BeginInvoke(action);
-            }
-            else
+    {
+            doubleBufferPropertyInfo.SetValue(control, enable, null);
+            doubleBufferPropertyInfo.SetValue(control, enable, null);
             {
-                action.Invoke();
-            }
         }
+            }
+            {
 
-        // Make the control not to flicker
-        public static void DoubleBuffered(this Control control, bool enable)
+            catch (Exception)
         {
-            var doubleBufferPropertyInfo = control.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
+        {
+    {
             doubleBufferPropertyInfo.SetValue(control, enable, null);
         }
     }
-
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
     //This can help you control the scrollbar with scrolling up and down.
     //The position is a little special.
     //Position for scrolling up should be negative.
@@ -43,8 +43,8 @@ namespace PCKLIB
         {
             //pos passed in should be positive
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+using System.Windows.Forms;
             {
-                p.ScrollControlIntoView(c);
             }
         }
         public static void ScrollUp(this Panel p, int pos)
@@ -52,13 +52,13 @@ namespace PCKLIB
             //pos passed in should be negative
             using (Control c = new Control() { Parent = p, Height = 1, Top = pos })
             {
-                p.ScrollControlIntoView(c);
-            }
-        }
+    }
+using System.Windows.Forms;
+    //The position is a little special.
     }
     public static class DataTableExtensions
+            var doubleBufferPropertyInfo = control.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
     {
-        public static void SetColumnsOrder(this DataTable table, params String[] columnNames)
         {
             try
             {
@@ -75,4 +75,4 @@ namespace PCKLIB
             }
         }
     }
-}
+namespace PCKLIB
