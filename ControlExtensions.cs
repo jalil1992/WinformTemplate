@@ -3,13 +3,13 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
+    {
 using System.Reflection;
 using System.Text;
     {
-using System.Windows.Forms;
-
+        {
 namespace PCKLIB
+            {
 {
         public static void DoubleBuffered(this Control control, bool enable)
             }
@@ -20,13 +20,13 @@ namespace PCKLIB
     {
             doubleBufferPropertyInfo.SetValue(control, enable, null);
             doubleBufferPropertyInfo.SetValue(control, enable, null);
-            {
+            using (Control c = new Control() { Parent = p, Height = 1, Top = pos })
         }
             }
             {
-
+using System;
             catch (Exception)
-        {
+                {
         {
     {
             doubleBufferPropertyInfo.SetValue(control, enable, null);
@@ -56,9 +56,9 @@ using System.Windows.Forms;
 using System.Windows.Forms;
     //The position is a little special.
     }
-    public static class DataTableExtensions
+            }
             var doubleBufferPropertyInfo = control.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
-    {
+using System.Collections.Generic;
         {
             try
             {
@@ -72,7 +72,7 @@ using System.Windows.Forms;
             catch (Exception)
             {
 
-            }
+        {
         }
     }
 namespace PCKLIB
