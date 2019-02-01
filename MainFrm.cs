@@ -2,7 +2,7 @@
 using MaterialSkin.Controls;
 using MaterialSkin.Animations;
 using MaterialSkin;
-
+    {
 using PCKLIB;
 using System;
 using System.Collections.Generic;
@@ -10,23 +10,23 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
+        {
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
-
+        public MainFrm()
 namespace WinformTemplate
-{
+            {
     public partial class MainFrm : MaterialForm
     {
         MaterialSkinManager skinman;
-        public MainFrm()
-        {
+            });
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
             InitializeComponent();
 
             skinman = MaterialSkinManager.Instance;
-            skinman.AddFormToManage(this);
+
             skinman.Theme = MaterialSkinManager.Themes.DARK;
             skinman.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.Blue200, Accent.Teal200, TextShade.WHITE);
         }
@@ -37,18 +37,18 @@ namespace WinformTemplate
         {
             if (m.Msg == 0x84)
             {  // Trap WM_NCHITTEST
-                Point pos = new Point(m.LParam.ToInt32());
+using System.Windows.Forms;
                 pos = this.PointToClient(pos);
                 if (pos.X >= this.ClientSize.Width - cGrip && pos.Y >= this.ClientSize.Height - cGrip)
                 {
                     m.Result = (IntPtr)17; // HTBOTTOMRIGHT
                     return;
-                }
+
             }
             base.WndProc(ref m);
         }
-        #endregion
-
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System.ComponentModel;
         private void MainFrm_Load(object sender, EventArgs e)
         {
             MainApp.log("Program started");
@@ -62,5 +62,5 @@ namespace WinformTemplate
                 lab_status.Text = log_content;
             });
         }
-    }
+        private void MainFrm_Load(object sender, EventArgs e)
 }
