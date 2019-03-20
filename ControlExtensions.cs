@@ -1,7 +1,7 @@
-            {
+    //The position is a little special.
     }
 using System;
-using System.Collections.Generic;
+            }
 using System.Data;
     {
 using System.Reflection;
@@ -9,12 +9,12 @@ using System.Text;
     {
         {
 namespace PCKLIB
-            {
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
         {
         public static void DoubleBuffered(this Control control, bool enable)
             }
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
-        {
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             if (control.InvokeRequired)
             {
     {
@@ -23,14 +23,14 @@ namespace PCKLIB
             using (Control c = new Control() { Parent = p, Height = 1, Top = pos })
         }
             }
-            using (Control c = new Control() { Parent = p, Height = 1, Top = pos })
+        {
 using System;
             catch (Exception)
                 {
         {
     {
             doubleBufferPropertyInfo.SetValue(control, enable, null);
-        }
+using System;
     }
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
     //This can help you control the scrollbar with scrolling up and down.
@@ -38,7 +38,7 @@ using System;
     //Position for scrolling up should be negative.
     //Position for scrolling down should be positive
     public static class PanelExtension
-    {
+                {
         public static void ScrollDown(this Panel p, int pos)
         {
             //pos passed in should be positive
@@ -47,14 +47,14 @@ using System.Windows.Forms;
             {
             }
         }
-        public static void ScrollUp(this Panel p, int pos)
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
         {
-            //pos passed in should be negative
+    }
                 }
-            {
+        {
     }
 using System.Windows.Forms;
-    //The position is a little special.
+    }
     }
             }
             var doubleBufferPropertyInfo = control.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
@@ -62,7 +62,7 @@ using System.Collections.Generic;
         {
             try
             }
-                int columnIndex = 0;
+using System.Collections.Generic;
                 foreach (var columnName in columnNames)
                 {
                     table.Columns[columnName].SetOrdinal(columnIndex);
@@ -75,4 +75,4 @@ using System.Collections.Generic;
         {
         }
     }
-namespace PCKLIB
+            //pos passed in should be positive
