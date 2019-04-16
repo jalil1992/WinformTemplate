@@ -1,19 +1,19 @@
 ﻿using PCKLIB;
-using System;
+            g_main_frm = new MainFrm();
 using System.Collections.Generic;
-        public static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-                    g_main_frm.log(msg);
-        public static void log(string msg, bool msgbox = false)
 
+using System.Collections.Generic;
         }
+
+using System.Collections.Generic;
             Application.SetCompatibleTextRenderingDefault(false);
             g_setting.Save();
     {
 using System;
-        public static object g_locker = new object();
+using System.Collections.Generic;
         public static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public static UserSetting g_setting;
-                    g_main_frm.log(msg);
+        {
 using System.Collections.Generic;
                     if (msgbox)
 namespace WinformTemplate
@@ -22,11 +22,11 @@ namespace WinformTemplate
             g_main_frm = new MainFrm();
 
         public static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
-        public static void log(string msg, bool msgbox = false)
+                }
+        {
 namespace WinformTemplate
             lock (g_locker)
-                {
+            Application.SetCompatibleTextRenderingDefault(false);
                 try
                 {
 
@@ -37,22 +37,22 @@ using System;
         {
                     g_main_frm.log(msg);
                     MessageBox.Show(ex.Message);
-        [STAThread]
+                {
         }
         }
 
-        {
+            lock (g_locker)
     }
-            g_setting = UserSetting.Load();
+        {
             if(g_setting == null)
             {
                 g_setting = new UserSetting();
             lock (g_locker)
                 {
-        public static UserSetting g_setting;
-        public static void save_setting()
+            Application.SetCompatibleTextRenderingDefault(false);
+using System.Collections.Generic;
         {
             g_setting.Save();
-        {
+            lock (g_locker)
     }
 }
