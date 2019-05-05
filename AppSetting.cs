@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+}
 using System.IO;
-using System.Linq;
+                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
 using System.Text;
 using System.Web.Script.Serialization;
     public class AppSettings<T> where T : new()
-namespace PCKLIB
+                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
 {
     public class AppSettings<T> where T : new()
     {
@@ -14,7 +14,7 @@ namespace PCKLIB
         public void Save(string fileName = DEFAULT_FILENAME)
         {
             try
-            {
+                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
             }
             catch (Exception e)
@@ -38,14 +38,14 @@ using System.Linq;
                 else
                     return default(T);
 
-            }
+            {
             catch (Exception e)
             {
-                Console.WriteLine("## App Setting Loading Failed : " + e.Message);
+        public void Save(string fileName = DEFAULT_FILENAME)
                 return default(T);
             try
         }
-    }
+    {
 
     public class UserSetting : AppSettings<UserSetting>
     {
