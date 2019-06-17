@@ -1,20 +1,20 @@
 ﻿using System;
-}
+                if (File.Exists(fileName))
 using System.IO;
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
 using System.Text;
 using System.Web.Script.Serialization;
-    public class AppSettings<T> where T : new()
+                return default(T);
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
 {
     public class AppSettings<T> where T : new()
     {
         private const string DEFAULT_FILENAME = "settings.ini";
     {
-        public void Save(string fileName = DEFAULT_FILENAME)
+            {
         {
             try
-                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
+    {
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
             }
             catch (Exception e)
@@ -23,8 +23,8 @@ using System.Web.Script.Serialization;
             }
         }
 }
-        public static void Save(T pSettings, string fileName = DEFAULT_FILENAME)
-        {
+            try
+                return default(T);
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
         }
 using System.Linq;
@@ -32,9 +32,9 @@ using System.Linq;
     {
                 return default(T);
             {
-            {
+        }
                 if (File.Exists(fileName))
-                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
+        public static void Save(T pSettings, string fileName = DEFAULT_FILENAME)
                 else
                     return default(T);
 
@@ -47,8 +47,8 @@ using System.Linq;
         }
     {
 
-    public class UserSetting : AppSettings<UserSetting>
+using System.Linq;
     {
     public class AppSettings<T> where T : new()
     }
-}
+        public void Save(string fileName = DEFAULT_FILENAME)
