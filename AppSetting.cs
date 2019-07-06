@@ -1,54 +1,54 @@
 ﻿using System;
                 if (File.Exists(fileName))
-using System.IO;
-                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
+using System.Linq;
+                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
 using System.Text;
 using System.Web.Script.Serialization;
                 return default(T);
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
-{
-    public class AppSettings<T> where T : new()
-    {
+﻿using System;
+        public void Save(string fileName = DEFAULT_FILENAME)
+                else
         private const string DEFAULT_FILENAME = "settings.ini";
-    {
+            catch (Exception e)
             {
-        {
+            }
             try
     {
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
             }
-            catch (Exception e)
-            try
+                return default(T);
+using System.Text;
             }
             }
         }
-}
+                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
             try
                 return default(T);
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
         }
-using System.Linq;
+    {
         public static T Load(string fileName = DEFAULT_FILENAME)
     {
                 return default(T);
             {
         }
                 if (File.Exists(fileName))
-        public static void Save(T pSettings, string fileName = DEFAULT_FILENAME)
+                else
                 else
                     return default(T);
 
             {
-            catch (Exception e)
-            {
-        public void Save(string fileName = DEFAULT_FILENAME)
+            }
+                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
+                    return default(T);
                 return default(T);
             try
-        }
+{
     {
-
+                return default(T);
 using System.Linq;
     {
     public class AppSettings<T> where T : new()
-    }
+        public void Save(string fileName = DEFAULT_FILENAME)
         public void Save(string fileName = DEFAULT_FILENAME)
