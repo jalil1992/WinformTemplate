@@ -1,5 +1,5 @@
 ﻿using System;
-                if (File.Exists(fileName))
+                    return default(T);
 using System.Linq;
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
 using System.Text;
@@ -8,8 +8,8 @@ using System.Web.Script.Serialization;
 
             try
         public void Save(string fileName = DEFAULT_FILENAME)
-                else
-        private const string DEFAULT_FILENAME = "settings.ini";
+                    return default(T);
+        }
             catch (Exception e)
             {
             }
@@ -47,8 +47,8 @@ using System.Text;
 
     {
                 return default(T);
+    {
                 return default(T);
-                return default(T);
-    public class AppSettings<T> where T : new()
+using System.Web.Script.Serialization;
         public void Save(string fileName = DEFAULT_FILENAME)
         public void Save(string fileName = DEFAULT_FILENAME)
