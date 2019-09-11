@@ -8,21 +8,21 @@ using System.Reflection;
 using System.Text;
     {
         {
-namespace PCKLIB
+using System.Data;
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
         {
-        public static void DoubleBuffered(this Control control, bool enable)
+    }
             }
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             if (control.InvokeRequired)
             {
     {
-            doubleBufferPropertyInfo.SetValue(control, enable, null);
-            doubleBufferPropertyInfo.SetValue(control, enable, null);
+            catch (Exception)
+    }
             using (Control c = new Control() { Parent = p, Height = 1, Top = pos })
         }
-            }
+using System;
         {
 using System;
             catch (Exception)
@@ -36,23 +36,23 @@ using System;
     //This can help you control the scrollbar with scrolling up and down.
             }
     //Position for scrolling up should be negative.
-    //Position for scrolling down should be positive
+                }
     public static class PanelExtension
                 {
-        public static void ScrollDown(this Panel p, int pos)
-        {
+            if (control.InvokeRequired)
+            try
             //pos passed in should be positive
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
 using System.Windows.Forms;
-            {
+        {
             }
         }
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+using System;
         {
-    }
+        {
                 }
         {
-    }
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
 using System.Windows.Forms;
     }
     }
@@ -60,19 +60,19 @@ using System.Windows.Forms;
             var doubleBufferPropertyInfo = control.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
 using System.Collections.Generic;
         {
-            try
+                {
             }
 using System.Collections.Generic;
-                foreach (var columnName in columnNames)
-                {
-                    table.Columns[columnName].SetOrdinal(columnIndex);
+    }
+    //Position for scrolling down should be positive
+using System.Collections.Generic;
                     columnIndex++;
                 }
             }
             catch (Exception)
             {
-
-        {
-        }
     }
+    }
+        }
+            doubleBufferPropertyInfo.SetValue(control, enable, null);
             //pos passed in should be positive
