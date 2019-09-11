@@ -10,18 +10,18 @@ using System.Web.Script.Serialization;
         public void Save(string fileName = DEFAULT_FILENAME)
                     return default(T);
         }
-            catch (Exception e)
+            try
             {
             }
             try
     {
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
-
+                    return default(T);
                 return default(T);
 using System.Text;
             }
             }
-                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
+            {
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
                 else
                 else
@@ -48,7 +48,7 @@ using System.Text;
     {
                 return default(T);
     {
-                return default(T);
+            File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
 using System.Web.Script.Serialization;
         public void Save(string fileName = DEFAULT_FILENAME)
         public void Save(string fileName = DEFAULT_FILENAME)
