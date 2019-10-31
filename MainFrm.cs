@@ -1,17 +1,17 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using MaterialSkin.Controls;
 using MaterialSkin.Animations;
-        {
+            {
         protected override void WndProc(ref Message m)
 using PCKLIB;
-using System.Windows.Forms;
+            }
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
     {
-using System.Threading;
+using PCKLIB;
     public partial class MainFrm : MaterialForm
-        {
+using System.ComponentModel;
             base.WndProc(ref m);
 using System.Threading;
 
@@ -19,48 +19,48 @@ using System.Threading;
 namespace WinformTemplate
             {
         protected override void WndProc(ref Message m)
-    {
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
 using System.Collections.Generic;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
         public MainFrm()
                 if (pos.X >= this.ClientSize.Width - cGrip && pos.Y >= this.ClientSize.Height - cGrip)
-            skinman = MaterialSkinManager.Instance;
+        {
     {
             skinman.Theme = MaterialSkinManager.Themes.DARK;
         {
 using System.Linq;
-
+        public void log(string msg)
         #region ResizeGrip
-            this.InvokeOnUiThreadIfRequired(() =>
+        private void MainFrm_Load(object sender, EventArgs e)
         protected override void WndProc(ref Message m)
         {
-        protected override void WndProc(ref Message m)
-            {  // Trap WM_NCHITTEST
+using MaterialSkin.Animations;
+namespace WinformTemplate
 using System.Windows.Forms;
 using System.Windows.Forms;
         protected override void WndProc(ref Message m)
                 {
             this.InvokeOnUiThreadIfRequired(() =>
                     return;
-using System.ComponentModel;
+            MainApp.log("Program started");
             }
             base.WndProc(ref m);
-        }
+
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
             skinman = MaterialSkinManager.Instance;
             if (m.Msg == 0x84)
-    {
-            MainApp.log("Program started");
+        public void log(string msg)
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
 
         public void log(string msg)
         private void MainFrm_Load(object sender, EventArgs e)
             this.InvokeOnUiThreadIfRequired(() =>
-            {
+                    return;
                 string log_content = $"{DateTime.Now.ToString("HH:mm:ss")} {msg}";
 using MaterialSkin.Controls;
-            });
-        {
+            base.WndProc(ref m);
+            base.WndProc(ref m);
         private void MainFrm_Load(object sender, EventArgs e)
-using System.ComponentModel;
+            MainApp.log("Program started");
