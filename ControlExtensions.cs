@@ -2,7 +2,7 @@
                 }
 using System;
             }
-using System.Data;
+        {
     {
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
 using System.Text;
@@ -16,26 +16,26 @@ using System.Data;
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             if (control.InvokeRequired)
-            {
-    {
-            }
-    }
         }
+    {
+        }
+    }
+        {
         }
 using System;
         {
-using System;
+            }
             catch (Exception)
     }
-        {
+            if (control.InvokeRequired)
     {
             doubleBufferPropertyInfo.SetValue(control, enable, null);
     {
             //pos passed in should be positive
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
     //This can help you control the scrollbar with scrolling up and down.
-            }
-    //Position for scrolling up should be negative.
+    }
+    }
                 }
     public static class PanelExtension
             }
@@ -45,15 +45,15 @@ using System;
     }
 using System.Windows.Forms;
         {
-            }
+using System.Collections.Generic;
         }
             {
         {
         {
                 }
-        {
+    {
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
-using System.Windows.Forms;
+            }
     }
     }
             }
@@ -62,7 +62,7 @@ using System.Collections.Generic;
         {
     //Position for scrolling up should be negative.
             }
-using System.Collections.Generic;
+            catch (Exception)
     }
     //Position for scrolling down should be positive
 using System.Collections.Generic;
