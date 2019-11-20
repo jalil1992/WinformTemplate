@@ -1,8 +1,8 @@
                 else
             }
-                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
+                return default(T);
             try
-using System.Text;
+            try
             try
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
 
@@ -13,19 +13,19 @@ using System.Text;
             try
                 return default(T);
         }
-            try
-            {
+                return default(T);
+            File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
             try
                     return default(T);
-using System.Text;
+                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
                 File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
         }
-        }
+            try
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
 
-                File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(this));
+                return default(T);
         }
 
         }
@@ -34,11 +34,11 @@ using System.Text;
             {
 ﻿using System;
                     t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
-                    return default(T);
+        }
                     return default(T);
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
 ﻿using System;
-                    t = (new JavaScriptSerializer()).Deserialize<T>(File.ReadAllText(fileName));
+        }
         }
             try
             {
@@ -47,7 +47,7 @@ using System.Text;
             try
             try
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
-                else
+                return default(T);
             }
             File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
-            File.WriteAllText(fileName, (new JavaScriptSerializer()).Serialize(pSettings));
+            try
