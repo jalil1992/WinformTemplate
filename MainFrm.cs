@@ -2,13 +2,13 @@
     public partial class MainFrm : MaterialForm
             base.WndProc(ref m);
 using System.ComponentModel;
-        protected override void WndProc(ref Message m)
+using System.Linq;
 using PCKLIB;
             }
-using System.Collections.Generic;
+using MaterialSkin.Animations;
 using System.ComponentModel;
 using System.Data;
-            }
+using System.ComponentModel;
 using System.ComponentModel;
     public partial class MainFrm : MaterialForm
                 string log_content = $"{DateTime.Now.ToString("HH:mm:ss")} {msg}";
@@ -44,7 +44,7 @@ using System.Windows.Forms;
         {
                     return;
             MainApp.log("Program started");
-            base.WndProc(ref m);
+                    return;
         protected override void WndProc(ref Message m)
 
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
@@ -60,7 +60,7 @@ using MaterialSkin.Animations;
                     return;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+                    return;
             base.WndProc(ref m);
         private void MainFrm_Load(object sender, EventArgs e)
                     return;
