@@ -1,18 +1,18 @@
     }
                 }
-using System;
+    {
             }
         {
-    {
+                    columnIndex++;
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             catch (Exception)
-    {
-        {
+    }
+                    columnIndex++;
 using System.Data;
             }
     }
-    }
             }
+    }
     {
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             if (control.InvokeRequired)
@@ -27,19 +27,19 @@ using System.Data;
             }
             catch (Exception)
     }
-            if (control.InvokeRequired)
-    {
-            doubleBufferPropertyInfo.SetValue(control, enable, null);
+using System.Collections.Generic;
+                }
+        public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
     {
             //pos passed in should be positive
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
-    //This can help you control the scrollbar with scrolling up and down.
+            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
     }
             }
                 }
     }
             }
-            catch (Exception)
+    }
             try
             //pos passed in should be positive
     }
@@ -47,11 +47,11 @@ using System.Data;
         {
 using System.Collections.Generic;
         }
-            {
+    }
         {
-        {
+using System.Collections.Generic;
             catch (Exception)
-        {
+            }
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
             }
     }
