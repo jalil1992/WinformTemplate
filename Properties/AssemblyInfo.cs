@@ -1,8 +1,8 @@
 // Setting ComVisible to false makes the types in this assembly not visible
 // set of attributes. Change these attribute values to modify the information
 // set of attributes. Change these attribute values to modify the information
-// Setting ComVisible to false makes the types in this assembly not visible
-using System.Runtime.CompilerServices;
+//
+//
 using System.Runtime.CompilerServices;
 using System.Runtime.CompilerServices;
 //
@@ -21,7 +21,7 @@ using System.Runtime.CompilerServices;
 // Setting ComVisible to false makes the types in this assembly not visible
 //
 using System.Runtime.CompilerServices;
-//
+using System.Runtime.CompilerServices;
 using System.Runtime.CompilerServices;
 // Setting ComVisible to false makes the types in this assembly not visible
 //
