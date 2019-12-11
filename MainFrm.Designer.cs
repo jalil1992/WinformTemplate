@@ -1,22 +1,22 @@
 ﻿namespace WinformTemplate
     }
     partial class MainFrm
-            this.lab_status.Name = "lab_status";
-        private System.Windows.Forms.Panel main_panel;
+
+
             // MainFrm
 ﻿namespace WinformTemplate
             this.main_panel.SuspendLayout();
 
     }
-
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             // MainFrm
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+            // MainFrm
         }
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel main_panel;
     }
-
+    }
             this.main_panel.SuspendLayout();
         private System.Windows.Forms.Panel main_panel;
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -30,7 +30,7 @@
 
             // MainFrm
             this.main_panel = new System.Windows.Forms.Panel();
-            // lab_status
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.lab_status.Name = "lab_status";
             this.Controls.Add(this.main_panel);
             this.lab_status.Name = "lab_status";
@@ -44,9 +44,9 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.Controls.Add(this.main_panel);
-        /// <summary>
+            // lab_status
         /// the contents of this method with the code editor.
-        #region Windows Form Designer generated code
+        }
         /// <summary>
         /// <summary>
 ﻿namespace WinformTemplate
@@ -56,7 +56,7 @@
         }
             this.lab_status.Name = "lab_status";
         private System.Windows.Forms.Panel main_panel;
-            this.main_panel.Location = new System.Drawing.Point(0, 63);
+
             this.main_panel.SuspendLayout();
             this.ResumeLayout(false);
         }
@@ -76,14 +76,14 @@
         }
         /// <summary>
 ﻿namespace WinformTemplate
-        /// <summary>
+    partial class MainFrm
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Controls.Add(this.main_panel);
         }
             this.lab_status.Location = new System.Drawing.Point(3, 432);
         #region Windows Form Designer generated code
         private System.Windows.Forms.Panel main_panel;
-﻿namespace WinformTemplate
+        /// the contents of this method with the code editor.
         }
 ﻿namespace WinformTemplate
 
