@@ -3,7 +3,7 @@
     partial class MainFrm
 
 
-            // MainFrm
+            this.lab_status.Name = "lab_status";
 ﻿namespace WinformTemplate
             this.main_panel.SuspendLayout();
 
@@ -25,22 +25,22 @@
         }
             this.ResumeLayout(false);
             this.main_panel = new System.Windows.Forms.Panel();
-            this.lab_status.Name = "lab_status";
+            this.main_panel = new System.Windows.Forms.Panel();
         /// <summary>
-
+            this.main_panel.SuspendLayout();
             // MainFrm
             this.main_panel = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.lab_status.Name = "lab_status";
+        /// the contents of this method with the code editor.
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.Controls.Add(this.main_panel);
             this.lab_status.Name = "lab_status";
         /// Required method for Designer support - do not modify
-        /// Required designer variable.
+    }
             //
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
 
 
-            this.tableLayoutPanel1.Controls.Add(this.lab_status, 0, 1);
+        }
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.Controls.Add(this.main_panel);
@@ -91,9 +91,9 @@
             this.lab_status.Name = "lab_status";
 {
             this.lab_status.Name = "lab_status";
-        /// <summary>
+    }
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-        }
+        /// <summary>
             this.lab_status.Name = "lab_status";
 ﻿namespace WinformTemplate
         /// Required designer variable.
