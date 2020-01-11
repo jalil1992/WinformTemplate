@@ -1,10 +1,10 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
     public partial class MainFrm : MaterialForm
             base.WndProc(ref m);
-using System.ComponentModel;
+            skinman = MaterialSkinManager.Instance;
 using System.Linq;
 using PCKLIB;
-            }
+using System.ComponentModel;
 using MaterialSkin.Animations;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +14,7 @@ using System.ComponentModel;
                 string log_content = $"{DateTime.Now.ToString("HH:mm:ss")} {msg}";
             base.WndProc(ref m);
         {
-                {
+                    return;
         public MainFrm()
 namespace WinformTemplate
                     return;
@@ -24,7 +24,7 @@ namespace WinformTemplate
         public void log(string msg)
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
         public MainFrm()
-        {
+
     public partial class MainFrm : MaterialForm
 using MaterialSkin.Animations;
             skinman.Theme = MaterialSkinManager.Themes.DARK;
@@ -32,13 +32,13 @@ using MaterialSkin.Animations;
 using System.Linq;
 using MaterialSkin.Animations;
 using System.Windows.Forms;
-        private void MainFrm_Load(object sender, EventArgs e)
-        protected override void WndProc(ref Message m)
         {
+        protected override void WndProc(ref Message m)
+    public partial class MainFrm : MaterialForm
 using MaterialSkin.Animations;
 namespace WinformTemplate
-    public partial class MainFrm : MaterialForm
-using System.Windows.Forms;
+            this.InvokeOnUiThreadIfRequired(() =>
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
         protected override void WndProc(ref Message m)
                 {
         {
@@ -48,7 +48,7 @@ using System.Windows.Forms;
         protected override void WndProc(ref Message m)
 
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-            skinman = MaterialSkinManager.Instance;
+using MaterialSkin.Animations;
                     return;
         public void log(string msg)
 using MaterialSkin.Animations;
@@ -60,7 +60,7 @@ using MaterialSkin.Animations;
                     return;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
-                    return;
+            base.WndProc(ref m);
             base.WndProc(ref m);
         private void MainFrm_Load(object sender, EventArgs e)
                     return;
