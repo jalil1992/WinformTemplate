@@ -1,5 +1,5 @@
-using System.Linq;
-    public partial class MainFrm : MaterialForm
+        {
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
             base.WndProc(ref m);
             skinman = MaterialSkinManager.Instance;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.ComponentModel;
 using System.ComponentModel;
 using System.Data;
 using MaterialSkin.Animations;
-using System.ComponentModel;
+                    return;
 using System.Linq;
                 string log_content = $"{DateTime.Now.ToString("HH:mm:ss")} {msg}";
             base.WndProc(ref m);
@@ -20,34 +20,34 @@ namespace WinformTemplate
                     return;
                     return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-    public partial class MainFrm : MaterialForm
-        public void log(string msg)
+using MaterialSkin.Controls;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-                    return;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using MaterialSkin.Controls;
 namespace WinformTemplate
     public partial class MainFrm : MaterialForm
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
             skinman.Theme = MaterialSkinManager.Themes.DARK;
         {
 using System.Linq;
-        protected override void WndProc(ref Message m)
-using System.Windows.Forms;
+        {
+                    return;
         {
         protected override void WndProc(ref Message m)
     public partial class MainFrm : MaterialForm
                     return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using MaterialSkin.Controls;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
         protected override void WndProc(ref Message m)
                 {
         {
                     return;
-            MainApp.log("Program started");
+        {
                     return;
     public partial class MainFrm : MaterialForm
                 {
-    public partial class MainFrm : MaterialForm
+                    return;
 using MaterialSkin.Animations;
                     return;
         public void log(string msg)
@@ -58,9 +58,9 @@ using PCKLIB;
 using MaterialSkin.Animations;
                     return;
                     return;
-using MaterialSkin.Animations;
+                    return;
 using MaterialSkin.Controls;
-using MaterialSkin.Animations;
-            base.WndProc(ref m);
-        private void MainFrm_Load(object sender, EventArgs e)
+                    return;
+        {
+                    return;
                     return;
