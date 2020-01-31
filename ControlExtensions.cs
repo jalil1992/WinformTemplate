@@ -2,12 +2,12 @@
                 }
     {
             }
-        {
+            }
                     columnIndex++;
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+    }
             catch (Exception)
     }
-                    columnIndex++;
+using System.Collections.Generic;
 using System.Data;
             }
     }
@@ -21,11 +21,11 @@ using System.Data;
         }
     }
         {
-        }
+    }
     }
         {
             }
-            catch (Exception)
+                }
     }
 using System.Collections.Generic;
                 }
@@ -60,19 +60,19 @@ using System.Collections.Generic;
     }
                 }
         {
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+            try
             }
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
     }
     {
-using System.Collections.Generic;
+    }
                     columnIndex++;
             try
-            }
+    }
 using System;
             {
-                }
+    {
 using System.Data;
-        }
-            doubleBufferPropertyInfo.SetValue(control, enable, null);
+    }
+        {
             //pos passed in should be positive
