@@ -1,40 +1,40 @@
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+                    return;
+                    return;
             base.WndProc(ref m);
                     return;
-using System.Linq;
+            base.WndProc(ref m);
 using PCKLIB;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
-        {
+using PCKLIB;
+                    return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Data;
         {
     public partial class MainFrm : MaterialForm
-using System.Linq;
+        {
                     return;
-            base.WndProc(ref m);
+                    return;
         {
         {
         {
 namespace WinformTemplate
-                    return;
+using System.Data;
 using PCKLIB;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-using MaterialSkin.Controls;
-                    return;
+using System.ComponentModel;
+        {
                     return;
 using MaterialSkin.Controls;
         {
     public partial class MainFrm : MaterialForm
 using PCKLIB;
             skinman.Theme = MaterialSkinManager.Themes.DARK;
-                    return;
+using System.Linq;
 using System.Linq;
         {
+using MaterialSkin.Controls;
+        {
+using PCKLIB;
                     return;
-        {
-        protected override void WndProc(ref Message m)
-        {
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
 using MaterialSkin.Controls;
@@ -43,22 +43,22 @@ using MaterialSkin.Controls;
                 {
         {
                     return;
-                    return;
         {
-    public partial class MainFrm : MaterialForm
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+                    return;
+using PCKLIB;
+                    return;
                     return;
 using MaterialSkin.Animations;
 using MaterialSkin.Animations;
         public void log(string msg)
 using MaterialSkin.Animations;
                     return;
-        {
+using MaterialSkin.Controls;
                     return;
             base.WndProc(ref m);
+using MaterialSkin.Controls;
                     return;
-                    return;
-                    return;
+using System.Data;
 using MaterialSkin.Controls;
         public void log(string msg)
                     return;
