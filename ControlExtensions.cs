@@ -1,14 +1,14 @@
     }
-            }
+        {
             }
             }
             }
                     columnIndex++;
 using System.Data;
-            catch (Exception)
     }
-            }
-using System.Data;
+    }
+            try
+        {
             }
     }
             }
@@ -18,7 +18,7 @@ using System.Data;
             if (control.InvokeRequired)
     }
     {
-    }
+        {
     }
         {
     }
@@ -33,7 +33,7 @@ using System.Collections.Generic;
             }
     }
     }
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+    }
     }
             try
                 }
@@ -45,17 +45,17 @@ using System.Collections.Generic;
     }
     }
             try
-using System.Collections.Generic;
+            //pos passed in should be positive
             //pos passed in should be positive
             }
             //pos passed in should be positive
     }
     }
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+            //pos passed in should be positive
             }
     }
-    }
+            try
     }
     }
                 }
@@ -65,14 +65,14 @@ using System.Collections.Generic;
         public static void InvokeOnUiThreadIfRequired(this Control control, Action action)
     }
             using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
-            using (Control c = new Control() { Parent = p, Height = 1, Top = p.ClientSize.Height + pos })
+            }
             try
             try
             try
 using System;
             {
-            }
+            //pos passed in should be positive
 using System.Data;
     }
-        {
+            //pos passed in should be positive
             //pos passed in should be positive
