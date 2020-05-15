@@ -6,7 +6,7 @@
 using PCKLIB;
 using PCKLIB;
                     return;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+                    return;
 using System.Data;
         {
     public partial class MainFrm : MaterialForm
@@ -18,7 +18,7 @@ using System.Data;
         {
 namespace WinformTemplate
 using System.Data;
-using PCKLIB;
+                    return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
         {
@@ -27,21 +27,21 @@ using MaterialSkin.Controls;
         {
     public partial class MainFrm : MaterialForm
 using PCKLIB;
-            skinman.Theme = MaterialSkinManager.Themes.DARK;
-using System.Linq;
-using System.Linq;
+                    return;
+        {
+                    return;
         {
 using MaterialSkin.Controls;
-        {
-using PCKLIB;
+                    return;
+                    return;
                     return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
-using MaterialSkin.Controls;
+                    return;
                     return;
 using MaterialSkin.Controls;
                 {
-        {
+using PCKLIB;
                     return;
         {
                     return;
@@ -52,13 +52,13 @@ using MaterialSkin.Animations;
 using MaterialSkin.Animations;
         public void log(string msg)
 using MaterialSkin.Animations;
-                    return;
-using MaterialSkin.Controls;
-                    return;
-            base.WndProc(ref m);
-using MaterialSkin.Controls;
-                    return;
 using System.Data;
+using MaterialSkin.Controls;
+                    return;
+                    return;
+using MaterialSkin.Controls;
+                    return;
+                    return;
 using MaterialSkin.Controls;
         public void log(string msg)
                     return;
