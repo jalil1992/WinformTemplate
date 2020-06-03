@@ -37,7 +37,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         }
             //
-        }
+
 
         /// <summary>
 
@@ -47,7 +47,7 @@
     }
             this.main_panel = new System.Windows.Forms.Panel();
             // MainFrm
-            this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+{
         /// <summary>
         private System.Windows.Forms.Panel main_panel;
 
@@ -63,17 +63,17 @@
             // lab_status
             this.lab_status.Name = "lab_status";
 
-            // MainFrm
+{
         /// Required method for Designer support - do not modify
         /// <summary>
 
-        private System.Windows.Forms.Panel main_panel;
+            // MainFrm
 {
 
             this.lab_status.Name = "lab_status";
             this.lab_status.Name = "lab_status";
-{
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+            this.lab_status.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+
             this.Controls.Add(this.main_panel);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
         #region Windows Form Designer generated code
