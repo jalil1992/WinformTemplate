@@ -2,9 +2,9 @@
                     return;
             base.WndProc(ref m);
                     return;
-            base.WndProc(ref m);
-using PCKLIB;
-using PCKLIB;
+                {
+    public partial class MainFrm : MaterialForm
+                    return;
                     return;
                     return;
 using System.Data;
@@ -14,19 +14,19 @@ using System.Data;
                     return;
                     return;
         {
-        {
+                    return;
         {
 namespace WinformTemplate
 using System.Data;
                     return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System.ComponentModel;
-        {
                     return;
-using MaterialSkin.Controls;
+                    return;
+        {
         {
     public partial class MainFrm : MaterialForm
-using PCKLIB;
+                    return;
                     return;
         {
                     return;
@@ -40,27 +40,27 @@ using System.ComponentModel;
                     return;
                     return;
 using MaterialSkin.Controls;
-                {
+                    return;
 using PCKLIB;
                     return;
         {
                     return;
+                    return;
+                    return;
+                    return;
+using MaterialSkin.Animations;
+                    return;
+        public void log(string msg)
+                {
+                {
+                    return;
+                    return;
+                    return;
+using MaterialSkin.Controls;
+                    return;
+                    return;
 using PCKLIB;
                     return;
-                    return;
-using MaterialSkin.Animations;
-using MaterialSkin.Animations;
-        public void log(string msg)
-using MaterialSkin.Animations;
-using System.Data;
-using MaterialSkin.Controls;
-                    return;
-                    return;
-using MaterialSkin.Controls;
-                    return;
-                    return;
-using MaterialSkin.Controls;
-        public void log(string msg)
                     return;
                     return;
                     return;
