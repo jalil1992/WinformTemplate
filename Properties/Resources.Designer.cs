@@ -13,13 +13,13 @@
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
         }
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
+        }
+        }
 ﻿//------------------------------------------------------------------------------
         }
 ﻿//------------------------------------------------------------------------------
-﻿//------------------------------------------------------------------------------
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+        ///   Looks up a localized resource of type System.Byte[].
+        }
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
 namespace WinformTemplate.Properties {
         ///   Looks up a localized resource of type System.Byte[].
@@ -28,13 +28,13 @@ namespace WinformTemplate.Properties {
         }
         ///   Looks up a localized resource of type System.Byte[].
 
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         }
         }
         }
-
         }
 
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
+        }
 //     Runtime Version:4.0.30319.42000
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -58,17 +58,17 @@ namespace WinformTemplate.Properties {
         }
         }
     // with the /str option, or rebuild your VS project.
-        ///   Looks up a localized resource of type System.Byte[].
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
         }
-        }
+
 ﻿//------------------------------------------------------------------------------
         }
         }
-//------------------------------------------------------------------------------
+﻿//------------------------------------------------------------------------------
 ﻿//------------------------------------------------------------------------------
         }
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
-//     Runtime Version:4.0.30319.42000
+        ///   Looks up a localized resource of type System.Byte[].
         }
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
         ///   Looks up a localized resource of type System.Byte[].
@@ -77,6 +77,6 @@ namespace WinformTemplate.Properties {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
     ///   A strongly-typed resource class, for looking up localized strings, etc.
         }
-//     Runtime Version:4.0.30319.42000
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinformTemplate.Properties.Resources", typeof(Resources).Assembly);
+namespace WinformTemplate.Properties {
+﻿//------------------------------------------------------------------------------
         }
