@@ -1,66 +1,66 @@
-                    return;
-                    return;
-            base.WndProc(ref m);
-using System.ComponentModel;
-                    return;
-    public partial class MainFrm : MaterialForm
-                    return;
-        {
-                    return;
-using System.Data;
-                    return;
-        {
-        {
-                    return;
-                    return;
-        {
-                    return;
-        {
-namespace WinformTemplate
-using System.Data;
-                    return;
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
-using System.ComponentModel;
-                    return;
-                    return;
-        {
-        {
-    public partial class MainFrm : MaterialForm
-                    return;
-                    return;
-using PCKLIB;
-                    return;
-        {
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
 using MaterialSkin.Controls;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-    public partial class MainFrm : MaterialForm
 using MaterialSkin.Animations;
-                    return;
-        public void log(string msg)
-                {
-                    return;
+using MaterialSkin;
+
+using PCKLIB;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using System.Threading;
+
+namespace WinformTemplate
+{
+    public partial class MainFrm : MaterialForm
+    {
+        MaterialSkinManager skinman;
+        public MainFrm()
         {
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
+            InitializeComponent();
+
+            skinman = MaterialSkinManager.Instance;
+            skinman.AddFormToManage(this);
+            skinman.Theme = MaterialSkinManager.Themes.DARK;
+            skinman.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.Blue200, Accent.Teal200, TextShade.WHITE);
+        }
+
+        #region ResizeGrip
+        private const int cGrip = 1;      // Grip size
+        protected override void WndProc(ref Message m)
+        {
+            if (m.Msg == 0x84)
+            {  // Trap WM_NCHITTEST
+                Point pos = new Point(m.LParam.ToInt32());
+                pos = this.PointToClient(pos);
+                if (pos.X >= this.ClientSize.Width - cGrip && pos.Y >= this.ClientSize.Height - cGrip)
+                {
+                    m.Result = (IntPtr)17; // HTBOTTOMRIGHT
                     return;
-using MaterialSkin.Controls;
-﻿using Microsoft.WindowsAPICodePack.Dialogs;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
-                    return;
+                }
+            }
+            base.WndProc(ref m);
+        }
+        #endregion
+
+        private void MainFrm_Load(object sender, EventArgs e)
+        {
+            MainApp.log("Program started");
+        }
+
+        public void log(string msg)
+        {
+            this.InvokeOnUiThreadIfRequired(() =>
+            {
+                string log_content = $"{DateTime.Now.ToString("HH:mm:ss")} {msg}";
+                lab_status.Text = log_content;
+            });
+        }
+    }
+}
